@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    }
+    body{
+
+       font-size: 15px;
+
+    }
+    .poke{
+        font-family: 'Poppins', sans-serif;
+        margin: 0 20px;
+
+
+        line-height: 70px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    header nav a{
+
+        color: aliceblue;
+
+    }
+    .fav{
+        font-family: 'Poppins', sans-serif;
+
+        margin: 0 15px;
+        float: right;
+       margin-top: 20px;
+        border-radius: 3px;
+
+    }
+    .ini{
+        font-family: 'Poppins', sans-serif;
+        margin: 0 30px;
+        float:right;
+
+        margin-top: 20px;
+        border-radius: 3px;
+
+
+    }
+    .ini:hover{
+        background-color: #fff;
+        color: #3B4CCA;
+        transition: .5s;
+        padding: 0px 3px;
+
+    }
+
+
+     nav {
+       background-color: #3B4CCA;
+     height: 70px;
+       width: 100%;
+       top: 0;
+       left: 0;
+
+       position: fixed;
+
+    }
+
+    .menu_pokebola{
+    width: 50px;
+    object-fit: content;
+
+    padding-top:10px;
+    margin-left: 30px;
+    float: left;
+    line-height: 70px;
+    }
+    .menu_avatar{
+    width: 45px;
+    object-fit: content;
+    float: right;
+    padding-top: 11px;
+    align-items: center;
+    margin-right: 30px;
+    }
+
+
+    .img1{
+        width: 40px;
+        height: 40px;
+    }
+
+    #items{
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+
+    #pokebola{
+        margin-left: 20px;
+    }
+
+    .bulbasaur{
+        width: 300px;
+        margin-top: 100px;
+    }
+
+    .pokemones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .pikachu{
+        margin-left: -160px;
+    }
+
+    #bulbasaur{
+        margin-top: 115px;
+    }
+
+    #cuadro{
+        background-color: #3B4CCA;
+        width: 600px;
+        height: 100px;
+        font-family: 'ubuntu', sans-serif;
+        font-size: 30px;
+        color: white;
+        border-radius: 30px;
+        margin-top: -120px;
+        justify-items: center;
+        text-align: center;
+    }
+
+    #sigue{
+        margin-top:10px ;
+    }
+
+    .iniciar{
+        font-family: 'poppins', sans-serif;
+        width: 1000px;
+
+       margin: 100px auto;
+
+    }
+
+    .nombre{
+        padding: 10px;
+        margin-top: 20px;
+        width: 300px;
+        margin-left: -20px;
+        border-radius: 10px;
+
+    }
+
+    .contra{
+        padding: 10px;
+        margin-top: 20px;
+        width: 300px;
+        margin-left: -20px;
+        border-radius: 10px;
+
+    }
+
+    #nombre{
+        margin-top: -15px;
+    }
+
+    .espacio1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 100px;
+        margin-top: -10px;
+    }
+
+    .recordar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 20px;
+        margin-left: 100px;
+    }
+
+    #espacio2{
+        margin-left: 100px;
+    }
+
+    #nombrecontra{
+        margin-top: -60px;
+    }
+
+    #boton1{
+        display: flex;
+        flex-direction: column;
+       margin-top: 150px;
+        margin-left: -750px;
+        width: 400px;
+        height: 100px;
+    }
+
+    #titulo1{
+        margin-left: 400px;
+        margin-top: -70px;
+        height: 20px;
+    }
+
+#norecuerda{
+  margin-top: 10px;
+    margin-left: 100px;
+}
+
+ .activarButton{
+    border-radius: 15px;
+    background-color: #FF1C1C;
+    color: white;
+    border:transparent;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 120px;
+    margin-top: 30px;
+    height: 40px;
+}
+
+
+
+.abrircon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+    border:transparent;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -60px;
+}
+
+#abrircon{
+    margin-left: 620px;
+    margin-top: -85px;
+}
+
+
+.facebook{
+    margin-top: 15px;
+}
+
+#texto2{
+    margin-left: 10px;
+}
+
+.nocuenta{
+    margin-left: 380px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+}
+
+#cuenta{
+    margin-top: -0px;
+}
+
+#link{
+    margin-left: 10px;
+}
+.remember{
+    margin-right: 10px;
+}
+/*#boton2:hover{
+    background-color: #3B4CCA;
+    color: #fff;
+    transition: .5s;
+}*/
+
+.deButton{
+    background-color: rgb(182, 182, 182);
+    color: white;
+    border-radius: 15px;
+    border:transparent;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 120px;
+    margin-top: 30px;
+    height: 40px;
+     }
+
+.abrircon:hover{
+    background-color: #3B4CCA;
+    color: #fff;
+    transition: .5s;
+
+}

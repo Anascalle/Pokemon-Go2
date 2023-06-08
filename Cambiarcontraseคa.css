@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    }
+    body{
+        background-color: white;
+   
+    font-family: poppins;
+       font-size: 15px;
+      
+    }
+    .poke{
+        font-family: 'Poppins', sans-serif;
+        margin: 0 20px;
+      
+     
+        line-height: 70px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    header nav a{
+ 
+        color: aliceblue;
+    
+    }
+    .fav{
+        font-family: 'Poppins', sans-serif;
+       
+        margin: 0 15px;
+        float: right;
+       margin-top: 20px;
+        border-radius: 3px;
+    
+    }
+    .ini{
+        font-family: 'Poppins', sans-serif;
+        margin: 0 15px;
+        float:right;
+        
+        margin-top: 20px;
+        border-radius: 3px;
+    
+    
+    }
+    
+    
+     nav {
+       background-color: #3B4CCA;
+     height: 70px;
+       width: 100%;
+       top: 0;
+       left: 0;
+  
+       z-index: 2;
+       position: fixed;
+       
+    }
+    
+    .menu_pokebola{
+    width: 50px;
+    object-fit: content;
+    
+    padding-top:10px;
+    margin-left: 30px;
+    float: left;
+    line-height: 70px;
+    }
+    .menu_avatar{
+    width: 45px;
+    object-fit: content;
+    float: right;
+    padding-top: 11px;
+    align-items: center;
+    margin-right: 30px;
+    }
+    
+    
+    .fav:hover{
+        background-color: #fff;
+        color: #3B4CCA;
+        transition: .5s;
+      padding: 0px 3px;
+    
+    
+       
+    }
+    .ini:hover{
+        background-color: #fff;
+        color: #3B4CCA;
+        transition: .5s;
+        padding: 0px 3px;
+        
+    }
+  
+      
+    
+        
+    
+    .banner_titulo{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-left: 80px;
+      justify-content: flex-start;
+       padding-top: 150px;
+       color:black;
+      
+      
+    
+        
+    }
+    .form {
+        background-color: white;
+        padding: 50px 100px;
+        text-align: center;
+        align-content: center;
+        margin-right: 100px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+  
+    
+    .account{
+        padding-top: 15px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    
+    }
+    
+  
+    
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 20px;
+    
+    }
+    .box {
+      outline: 1px;
+        border-style: groove;
+        padding: 10px 30px;
+        margin-bottom:40px ;
+        width: 500px;
+        height: 50px;
+        font-size: 16px;
+
+    border-radius: 10px;
+      
+    }
+    
+
+  
+    
+  
+    .button1{
+        color: #f9f9f9;
+        background-color: #3B4CCA;
+        padding: 10px;
+        border: 0;
+        font-size: 16px;
+        text-transform: capitalize;
+        border-radius: 37px;
+     margin-right: 1000px;
+       width: 215px;
+    
+    }
+ 
+.pichu{
+
+   margin-left: 750px;
+   margin-top: -450px;
+  
+}
+
+
+  
+.menu{
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    background-color: #3B4CCA;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 2%;
+    padding-right: 4%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.menu-item{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.division{
+    background-color: #fff;
+    height: 2px;
+    width: 110%;
+    border-radius: 20px;
+}
+
+.menu-icon{
+    height: 35px;
+   margin-right: 2%;
+   margin-top: 2%;
+}
+
+#ocultar{
+        display:none
+}
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9c5d1260f8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9c5d1260f8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Detail</title>
+    <link rel="stylesheet" href="detail.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <nav>
+
+                <a href="#"><img src="Imagenes Barra/Usuario-removebg-preview.png" alt="Usuario" class="menu_avatar"
+                        id="avatar" onclick="abrirmenu()"></a>
+                <img src="Imagenes/Pokebola.png" alt="Pokebola" class="menu_pokebola">
+                <li> <a class="ini" href="Pokedex.html">Pokédex </a></li>
+                <li><a class="fav" href="Favoritos.html">Favoritos</a></li>
+                <li> <a class="poke" href="">Pokédex Go</a></li>
+
+                <ul class="menu" id="ocultar">
+                    <div class="menu-item">
+                        <li><img src="Imagenes Barra/Usuario-removebg-preview.png" alt="" class="menu-icon"><a
+                                href="Usuario.html">Tu Perfil</a></li>
+                    </div>
+                    <div class="division"></div>
+                    <div class="menu-item">
+                        <li><img src="Imagenes Barra/image 28.png" alt="" class="menu-icon"><a
+                                href="iniciarsesion.html">Cambiar de cuenta</a></li>
+                    </div>
+                    <div class="division"></div>
+                    <div class="menu-item">
+                        <li><img src="Imagenes Barra/image 29.png" alt="" class="menu-icon"><a
+                                href="iniciarsesion.html">Cerrar sesion</a></li>
+                    </div>
+                    <div class="division"></div>
+                    <div class="menu-item">
+                        <li><img src="Imagenes Barra/Rectangle 123.png" alt="" class="menu-icon"><a
+                                href="Cambiarcontraseña.html">Cambiar contraseña</a></li>
+                    </div>
+
+                </ul>
+
+            </nav>
+    </header>
+
+    <div class="pokemon-card">
+        <div class="image-container">
+            <img id="image" alt="character image">
+            <i class="fas fa-arrow-left" onclick="goBack()"></i>
+
+        </div>
+        <div id="imagen">
+            <!--button class="faov" onclick="addToFavorites('Ivysaur')">Agregar a favoritos</!--button-->
+
+            <!--button class="faov" onclick="addToFavorites('${this.id}')">Agregar a favoritos</!--button-->
+            <button class="faov" >Agregar a favoritos</button>
+        </div>
+
+        <h1 id="name"></h1>
+        <div id="id-type">
+            <h1 id="id"></h1>
+            <h1 id="type"></h1>
+        </div>
+        <div class="info_pokemon">
+            <div id="movimientos">
+                <p id="Moves">Moves</p>
+                <ul id="moves"></ul>
+            </div>
+            <div id="habilidades">
+                <p id="Abilities">Abilities</p>
+                <ul id="abilities"></ul>
+
+            </div>
+
+
+            <h1 id="base_experience"></h1>
+            <p id="base">Base stat:</p>
+            <li id="stats"></li>
+            <div id="dimensiones">
+                <h1 id="weight"></h1>
+                <h1 id="height"></h1>
+
+            </div>
+        </div>
+
+        <script src="./js/Afavoritos.js"></script>
+        <script src="./js/Character.js"></script>
+        <script src="./js/detail.js"></script>
+        <script src="./usuariomodal.js"></script>
+
+</body>
+
+</html>
